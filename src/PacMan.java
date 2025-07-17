@@ -339,17 +339,19 @@ public class PacMan extends JPanel implements ActionListener, KeyListener {
             pacman.updateDirection('R');
         }
 
-        if (pacman.direction == 'U') {
-            pacman.image = pacmanUpImage;
-        }
-        else if (pacman.direction == 'D') {
-            pacman.image = pacmanDownImage;
-        }
-        else if (pacman.direction == 'L') {
-            pacman.image = pacmanLeftImage;
-        }
-        else if (pacman.direction == 'R') {
-            pacman.image = pacmanRightImage;
+        switch (pacman.direction) {
+            case 'U':
+                pacman.image = pacmanUpImage;
+                break;
+            case 'D':
+                pacman.image = pacmanDownImage;
+                break;
+            case 'L':
+                pacman.image = pacmanLeftImage;
+                break;
+            case 'R':
+                pacman.image = pacmanRightImage;
+                break;
         }
     }
 }
