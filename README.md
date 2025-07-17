@@ -7,7 +7,6 @@ A modern remake of the classic **Pac-Man** arcade game, built using Java. Naviga
 
 - Classic Pac-Man gameplay
 - Smooth character movement and collision detection
-- Smart ghost AI with chase and scatter modes
 - Power pellets and ghost-eating mode
 - Sound effects and retro-style visuals
 - Score tracking and level progression
